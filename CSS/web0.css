@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+.meniu-block{
+    width: 70%;
+    float: left;
+    margin: 15px;
+}
+.meniu-block .meniu-item:hover{
+    color: #798784;
+}
+.meniu-block .meniu-item{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+.slider{
+    width: 100%;
+    background-color: aquamarine;
+    color: black;
+    padding: 40px 0;
+}
+.slider .slider-title{
+    text-align: center;
+    font-size: 36px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+.slider .slider-short-description{
+    text-align: center;
+    padding: 0 30px;
+    margin-bottom: 30px;
+}
+.slider .slider-image img{
+    text-align: 400px;
+
+}
